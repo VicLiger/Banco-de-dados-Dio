@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* INTRODUÇÃO AO HEADER */
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 20%;
+}
+
+.bar{
+    font-size: 22px;
+    font-family:monospace;
+    color: rgb(245, 245, 245);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.925), rgb(0, 183, 255));
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between; 
+}
+
+.title{
+    margin-left: 10%;
+}
+
+.title span{
+    color: rgb(0, 183, 255);
+}
+
+.options{
+    margin-top: 0.5%;
+    margin-right: 20%;
+    display: flex;
+}
+
+.options h2{
+    margin-left: 10%;
+}
+
+/* FINALIZAÇÃO HEADER */
